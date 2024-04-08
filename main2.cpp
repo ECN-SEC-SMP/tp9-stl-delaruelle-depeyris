@@ -85,6 +85,7 @@ int main ()
     cout << "Test de la fonction ajouteVirgule : ";
     ajouteVirgule(vs);
     affiche(vs);
+    return 0;
 }
 
 
