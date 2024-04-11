@@ -29,10 +29,12 @@ void affichList(std::list<int> & l)
 int main ()
 {
     std::list<int> l = {1,2,3,4,5,6,7,8}; // Création d'une liste de 8 entiers
+    std::cout << "Création de la liste" << std::endl;
     affichList(l); // Affichage de la liste
     std::list<int>::iterator it = l.begin();
     std::advance(it, 2); // Déplace l'itérateur vers le troisième élément
     l.erase(it); // Supprime le troisième élément
+    std::cout << "Suppression du troisième élément" << std::endl;
     affichList(l); // Affiche la liste
     return 0;
 }

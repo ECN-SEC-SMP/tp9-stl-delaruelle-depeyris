@@ -58,6 +58,7 @@ int main ()
     ajoute_evenement(2020, "Evénement 4 en 2020", evenements);
     ajoute_evenement(2021, "Evénement 3 en 2021", evenements);
     ajoute_evenement(2021, "Evénement 4 en 2021", evenements);
+    ajoute_evenement(2002, "Evénement 1 en 2021", evenements);
 
     affiche_evenements(evenements);
 
